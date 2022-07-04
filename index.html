@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/845ae26aa3.js" crossorigin="anonymous"></script>
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px;position: absolute; bottom: 0%; left: 50%;transform: translateX(-50%);width: 100%;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo-container">
+            <img src="images/logo.svg" alt="logo">
+        </div>
+        <div class="calc-wrapper">
+            <div class="input-container">
+                <label for="bill">Bill</label>
+                <div class="p-10"></div>
+                <div class="form-group">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <input type="text" name="bill-amount" id="bill-amount" value="142.55">  
+                </div>
+                <div class="p-10"></div>
+                <div class="p-10"></div>
+                <p class="tip-label">Select Tip %</p>
+                <div class="p-10"></div>
+                <div class="tip-percent-container">
+                    <div class="tip-perc">5%</div>
+                    <div class="tip-perc">10%</div>
+                    <div class="tip-perc perc-15">15%</div>
+                    <div class="tip-perc">25%</div>
+                    <div class="tip-perc">50%</div>
+                    <div class="tip-perc custom">Custom</div>
+                </div>
+                <div class="p-10"></div>
+                <div class="p-10"></div>
+                <label for="people">Number of People</label>
+                <div class="p-10"></div>
+                <div class="form-group">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="people" id="people" value="5">  
+                </div>
+                <div class="p-10"></div>
+                <div class="p-10"></div>
+                </div>
+            </div>
+            <div class="amount-container">
+                <div class="tip-amount-label">
+                 <p>Tip Amount <br> <span>/ person</span></p>
+                </div>
+                <div class="tip-amount">
+                 <h3>$4.27</h3>
+                </div>
+                <div class="tip-total-label">
+                 <p>Total <br><span>/ person</span></p>
+                </div>
+                <div>
+                     <h3>$32.79</h3>
+                </div>
+                <div class="reset-container">
+                 <a href="#">RESET</a>
+                </div>
+        </div>
+    </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Karthik Rajendran</a>.
+  </div>
+</body>
+</html>
